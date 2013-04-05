@@ -1,0 +1,15 @@
+<div class="list_title">friends</div>
+<ul class="content_list">
+  <li><a href="http://www.alfredfox.com">Alfred Fox</a></li>
+  <li><a href="http://www.blankbmx.com">Blank BMX</a></li>
+  <li><a href="http://www.chrishaynie.com">Chris Haynie</a></li>
+  <li><a href="http://www.nfored.com">Fred McFeeters</a></li>
+  <li><a href="http://www.jaymzzz.com">James Dimitrov</a></li>
+  <li><a href="http://www.justynshull.com">Justyn Shull</a></li>
+  <li><a href="http://www.matthewbowers.net">Matt Bowers</a></li>
+  <li><a href="http://www.burnsforce.com">Pat Burns</a></li>
+  <li><a href="http://www.segv.net">Ryan Lewon</a></li>
+  <li><a href="http://www.gidenski.com">Taylor Giddens</a></li>
+  <li><a href="http://www.timgalyean.com">Tim Galyean</a></li>
+  <li><a href="http://www.vye.me">Vye Wilson</a></li>
+</ul>

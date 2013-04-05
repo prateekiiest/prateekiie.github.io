@@ -1,0 +1,185 @@
+body {
+  font-family: 'Droid Sans', arial, sans-serif;
+  font-size: 0.9em;
+  color: #aaa;
+  background-color: #222;
+}
+h1, h2, h3 {
+  color: #eee;
+}
+li {
+  list-style-position: inside;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #88ff4b;
+}
+hr {
+  border: 0;
+  border-bottom: 1px dotted #4c4c4c;
+}
+ul.content_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.content_list li {
+  font-size: 12px;
+  padding-bottom: 12px;
+}
+#main {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+#header {
+  height: auto;
+  vertical-align: top;
+  display: table-cell;
+  width: 250px;
+  height: 100%;
+  text-align: left;
+  color: #444;
+}
+#header a:link, #header a:visited, #header a:active {
+  color: #999;
+}
+#header_top_container a:link, #header_top_container a:visited, #header_top_container a:active {
+  color: #88c34b;
+}
+#header_top_container a:hover {
+  color: #88ff4b;
+}
+#header a:hover {
+  color: #88ff4b;
+}
+#header_top_container {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  padding-top: 10px;
+}
+#header_top_container a:hover {
+  color: #88ff4b;
+}
+#header_gravatar_container {
+  float: left;
+  width: 100px;
+}
+#header_details_container {
+  float: right;
+  padding-right: 30px;
+}
+#header_details_container li {
+  font-size: 14px;
+}
+#page {
+  display: table-cell;
+  height: auto;
+  vertical-align: top;
+  width: 660px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 50px;
+}
+#page a, #page a:visited, #page a:active {
+  color: #88c34b;
+}
+#page a:hover {
+  color: #88ff4b;
+}
+#page li {
+  list-style-position: outside;
+  padding: 5px;
+}
+#header #blog_title {
+  font-size: 1.3em;
+  text-align: center;
+}
+#footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+div.post_title, div.page_title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 10px;
+}
+div.post_date {
+  color: #999;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+#sidebar {
+  display: table-cell;
+  width: 250px;
+  text-align: left;
+  padding-top: 50px;
+}
+#sidebar a:link, #sidebar a:visited, #sidebar a:active {
+  color: #999;
+  text-transform: capitalize;
+}
+#sidebar a:hover {
+  height: auto;
+  vertical-align: top;
+  color: #88ff4b;
+}
+div.list_title {
+  color: #ccc;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+div.post .separator {
+  height: 20px;
+  border: 0;
+  box-shadow: inset 0 30px 30px -30px rgba(0,0,0,0.5);
+  padding-bottom: 40px;
+}
+div.category_title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 1em 0;
+  color: #fff;
+}
+div.post_list_item {
+  display: table;
+  padding: 10px;
+}
+div.post_list_item_date, div.post_list_item_link {
+  display: table-row;
+}
+div.post_list_item_date {
+  color: #999;
+  font-size: 10px;
+}
+div.highlight pre {
+  width: 690px;
+  overflow: auto;
+}
+div.error404 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 70px;
+}
+div.error404 .title {
+  font-size: 20em;
+  font-weight: bold;
+  color: #555;
+}
+div.error404 .message {
+  font-size: 2em;
+  color: #eee;
+  padding: 20px;
+}
