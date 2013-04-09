@@ -3,6 +3,8 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" type="text/css" href="/site.css"/>
   <link rel="stylesheet" type="text/css" href="/syntax.css"/>
+  <link rel="canonical" href="{{ page.url | canonical }}"/>
+  <meta name="description" content="{{ page.title }}"/>
 </head>
 <body>
 <div id="main">
@@ -43,7 +45,7 @@
   <ul class="content_list">
 {% for category in site.categories %}    <li><a href="/categories/#{{ category[0] }}">{{ category[0] }}</a></li>{% endfor %}
   </ul>
-{% include links.md %}
+{% include links.html %}
 </div>
 </div>
 </body>
