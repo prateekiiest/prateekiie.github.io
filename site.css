@@ -41,7 +41,7 @@ ul.content_list li {
   height: auto;
   vertical-align: top;
   display: table-cell;
-  width: 250px;
+  width: 464px;
   height: 100%;
   text-align: left;
   color: #444;
@@ -98,8 +98,20 @@ ul.content_list li {
   padding: 5px;
 }
 #header #blog_title {
-  font-size: 1.3em;
+  font-size: 40px;
   text-align: center;
+}
+#header #blog_title a {
+  text-decoration: none;
+  text-shadow: 0 0 1px #9f9;
+  letter-spacing: -2px;
+  font-variant: small-caps;
+}
+#header #blog_title a, #header #blog_title a:visited, #header #blog_title a:active {
+  color: #2c2;
+}
+#header #blog_title a:hover {
+  color: #2f2;
 }
 #footer {
   width: 100%;
