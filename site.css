@@ -41,7 +41,9 @@ ul.content_list li {
   height: auto;
   vertical-align: top;
   display: table-cell;
-  width: 250px;
+  width: 225px;
+  max-width: 225px;
+  min-width: 225px;
   height: 100%;
   text-align: left;
   color: #444;
@@ -82,8 +84,9 @@ ul.content_list li {
   display: table-cell;
   height: auto;
   vertical-align: top;
-  width: 660px;
-  max-width: 660px;
+  width: 685px;
+  max-width: 685px;
+  min-width: 685px;
   overflow: hidden;
   padding-left: 45px;
   padding-right: 45px;
@@ -139,6 +142,8 @@ div.post_date {
 #sidebar {
   display: table-cell;
   width: 250px;
+  min-width: 250px;
+  max-width: 250px;
   text-align: left;
   padding-top: 50px;
 }
