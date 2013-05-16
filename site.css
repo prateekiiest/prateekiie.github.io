@@ -41,7 +41,7 @@ ul.content_list li {
   height: auto;
   vertical-align: top;
   display: table-cell;
-  width: 464px;
+  width: 250px;
   height: 100%;
   text-align: left;
   color: #444;
@@ -83,6 +83,8 @@ ul.content_list li {
   height: auto;
   vertical-align: top;
   width: 660px;
+  max-width: 660px;
+  overflow: hidden;
   padding-left: 45px;
   padding-right: 45px;
   padding-top: 50px;
@@ -119,9 +121,10 @@ ul.content_list li {
   padding: 10px;
 }
 div.post_title, div.page_title {
-  font-size: 1.3em;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px #000;
   font-weight: bold;
-  color: #fff;
+  font-variant: small-caps;
   padding-bottom: 10px;
 }
 div.post_author {
@@ -157,9 +160,9 @@ div.list_title {
   padding-bottom: 20px;
 }
 div.post .separator {
-  height: 20px;
+  height: 40px;
   border: 0;
-  box-shadow: inset 0 30px 30px -30px rgba(0,0,0,0.5);
+  box-shadow: inset 0 60px 60px -60px rgba(0,0,0,0.5);
   padding-bottom: 40px;
 }
 div.category_title {
