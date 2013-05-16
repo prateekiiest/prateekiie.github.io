@@ -198,3 +198,17 @@ The Verdict
   probably not. I just use the USB connection of my board and really don't notice
   the difference, since I rarely smash my face into the keyboard expecting all of
   the keys to register.
+
+Suppliers I used
+----------------
+
+For all 3 Filco keyboards I have owned, I have purchased directly from [The
+Keyboard Company](http://www.thekeyboardcompany.co.uk). They ship very quickly.
+
+For key caps, key pullers, and dapeners, I bought from [WASD
+Keyboards](http://www.wasdkeyboards.com) and used the local pick-up option,
+since they are right off of Calaveras in Milpitas, CA.
+
+I didn't actually purchase anything from them, but it looks like they
+occasionally have PBT key caps and Cherry MX clear switch keyboards at
+[mechanicalkeyboards.com](http://www.mechanicalkeyboards.com)
