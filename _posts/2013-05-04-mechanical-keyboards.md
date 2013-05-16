@@ -189,7 +189,7 @@ types with no dampeners and no blank keys. I like my keyboard to give me feedbac
 when I press keys. **Lots** of feedback, which is why I am interested in trying
 Cherry MX clears or greens when they become more accessible.
 
-~![""](/assets/attachments/2013-05-14-filco_final.jpg)
+![""](/assets/attachments/2013-05-14-filco_final.jpg)
 
 The Verdict
 -----------
