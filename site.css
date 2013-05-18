@@ -84,6 +84,7 @@ ul.content_list li {
   display: table-cell;
   height: auto;
   vertical-align: top;
+  color: #ccc;
   width: 685px;
   max-width: 685px;
   min-width: 685px;
