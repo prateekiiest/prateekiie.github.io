@@ -15,9 +15,9 @@ would shut up.
 At first I thought I would sell my Filco board with Cherry MX blue switches and
 go back to browns. But instead, I ended up buying Cherry MX clear key switches
 and modding the Filco with them. This involved quite a bit of disassembly. Not
-only the case and key caps but also desoldering every single MX blue switch,
-since Filco's are pcb-mounted. There are 87 keys on my keyboard and each has 2
-pins, so this took a while, but the results are worth it.
+only the case and key caps but also desoldering every single MX blue switch.
+There are 87 keys on my keyboard and each has 2 pins, so this took a while, but
+the results are worth it.
 
 ![""](/assets/attachments/2013-05-25-blue_to_clear.jpg)
 
