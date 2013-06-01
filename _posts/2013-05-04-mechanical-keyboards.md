@@ -182,6 +182,14 @@ in trying Cherry MX clears or greens when they become more accessible.
 ![""](/assets/attachments/2013-05-14-filco_final.jpg)
 ![""](/assets/attachments/2013-05-14-desktop_setup.jpg)
 
+**Update**
+I acquired a Vortex aluminum case for a decent price, and a pretty basic set of
+PBT key caps. I also swapped out the Cherry MX blue switches for clears
+(featured in my next post). The difference is in typing experience is crazy.
+This thing is ridiculously solid now and feels really great to type on.
+
+![""](/assets/attachments/2013-05-14-vortex_case.jpg)
+
 The Verdict
 -----------
 
