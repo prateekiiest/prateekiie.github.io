@@ -9,6 +9,17 @@ software under the MIT license.
 
 ---
 
+### oaf
+Oaf is a web app proof-of-concept framework for quickly creating dynamic
+applications using whatever programming language is most natural to the
+developer. Simple inputs and outputs plus the flexibility of any language which
+can be run as an executable make it an easy solution for mocking and
+prototyping.
+
+([GitHub](https://github.com/ryanuber/oaf)) ([RubyGems](http://rubygems.org/gems/oaf))
+
+---
+
 ### pakrat
 Pakrat is a python library and command line utility for mirroring and optionally
 versioning YUM repositories.
