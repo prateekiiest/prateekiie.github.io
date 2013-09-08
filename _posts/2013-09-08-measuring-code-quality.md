@@ -2,6 +2,7 @@
 layout: post
 title: Measuring the Quality of Code
 categories:
+  - continuous integration
   - code
   - testing
   - documentation
