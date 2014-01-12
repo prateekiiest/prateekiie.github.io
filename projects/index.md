@@ -7,6 +7,9 @@ title: Projects
 Below are some original open source projects I have released. I usually release
 software under the MIT license.
 
+Many of the below software projects are available for installation using my
+[software repositories](/software-repos)
+
 ---
 
 ### oaf
