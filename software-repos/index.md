@@ -4,7 +4,6 @@ title: Public Software Repositories
 ---
 
 <div class="post_title">Software Repositories</div>
-
 I package most of my open source software for both RedHat and Debian. You can
 [visit the repositories directly](http://pkg.ryanuber.com), or install them
 using the commands below.

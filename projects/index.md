@@ -12,6 +12,15 @@ Many of the below software projects are available for installation using my
 
 ---
 
+### yum-rocket
+yum-rocket is a plugin for YUM. It provides threaded downloading of package
+data, mirror prioritization based on speed (when used with fastestmirror), and
+distributed downloads by spanning multiple mirrors on a per-repository basis.
+
+([GitHub](https://github.com/ryanuber/yum-rocket))
+
+---
+
 ### oaf
 Oaf is a web app proof-of-concept framework for quickly creating dynamic
 applications using whatever programming language is most natural to the
