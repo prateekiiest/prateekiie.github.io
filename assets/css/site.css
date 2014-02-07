@@ -162,7 +162,6 @@ div.post_date {
 }
 #github a:link, #github a:visited, #github a:active {
   color: #88c34b;
-  font-weight: bold;
   text-transform: none;
 }
 #github .day {

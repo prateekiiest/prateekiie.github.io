@@ -23,7 +23,7 @@ function githubActivity(user) {
     var gh = new Octokit({username:user});
     var user = gh.getUser(user);
     user.getEvents().done(function(events) {
-        var max = 20;
+        var max = 30;
         var displayed = 0;
         var html = "";
         var result = {};
@@ -77,9 +77,10 @@ function githubActivity(user) {
                 break;
 
             case 'IssueCommentEvent':
+                // Don't display both a comment and a pull request when a new
+                // pull request is created.
                 if (ue.payload.issue.created_at ==
                     ue.payload.comment.created_at) {
-                        alert('lol not this one');
                         break;
                 }
                 displayed++;
