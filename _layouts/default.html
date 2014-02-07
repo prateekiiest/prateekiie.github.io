@@ -1,11 +1,21 @@
 <html>
 <head>
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" type="text/css" href="/site.css"/>
-  <link rel="stylesheet" type="text/css" href="/syntax.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/site.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/spinner.css"/>
   <link rel="canonical" href="{{ page.url | canonical }}"/>
   <link rel="author" href="https://plus.google.com/u/0/106903511004318596965">
   <meta name="description" content="{{ page.title }}"/>
+
+  <script src="assets/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="assets/js/underscore-min.js" type="text/javascript"></script>
+  <script src="assets/js/base64.js" type="text/javascript"></script>
+  <script src="assets/js/octokit.js" type="text/javascript"></script>
+  <script src="assets/js/github_activity.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  window.onload = function(){githubActivity("ryanuber")};
+  </script>
 </head>
 <body>
 <div id="main">
@@ -33,9 +43,12 @@
   <ul class="content_list">
   <div class="list_title">recent posts</div>
 {% for post in site.posts limit:10 %}    <li class="recent_post"><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+  <li class="recent_post"><a href="/all_posts">All Posts</a></li>
   </ul>
   <hr>
-  <a href="/all_posts">All Posts</a>
+  {% if page.url == '/index.html' %}
+    {% include categories.html %}
+  {% endif %}
 </div>
 <div id="page">
 {{ content }}
@@ -43,12 +56,12 @@
   <div id="footer">&copy; 2013 Ryan Uber</div>
 </div>
 <div id="sidebar">
-  <div class="software_repos"><a href="/software-repos">Repositories</a></div>
-  <div class="list_title">categories</div>
-  <ul class="content_list">
-{% for category in site.categories %}    <li><a href="/categories/#{{ category[0] }}">{{ category[0] }}</a></li>{% endfor %}
-  </ul>
-{% include links.html %}
+  {% if page.url == '/index.html' %}
+    {% include github_activity.html %}
+  {% else %}
+    {% include categories.html %}
+    {% include links.html %}
+  {% endif %}
 </div>
 </div>
 </body>

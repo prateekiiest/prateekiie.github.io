@@ -142,9 +142,9 @@ div.post_date {
 }
 #sidebar {
   display: table-cell;
-  width: 250px;
-  min-width: 250px;
-  max-width: 250px;
+  width: 225px;
+  min-width: 225px;
+  max-width: 225px;
   text-align: left;
   padding-top: 50px;
 }
@@ -156,6 +156,28 @@ div.post_date {
   height: auto;
   vertical-align: top;
   color: #88ff4b;
+}
+#github {
+  color: #999;
+}
+#github a:link, #github a:visited, #github a:active {
+  color: #88c34b;
+  font-weight: bold;
+  text-transform: none;
+}
+#github .day {
+  font-size: 14px;
+  color: #bbb;
+  font-weight: bold;
+  font-variant: small-caps;
+  border-top: 1px dotted #4c4c4c;
+  padding: 3px;
+}
+#github a.branch:link, #github a.branch:visited, #github a.branch:active {
+  color: #bbb;
+}
+#github a.pullreq:link, #github a.pullreq:visited, #github a.pullreq:active {
+  color: #bbb;
 }
 div.list_title {
   color: #ccc;
