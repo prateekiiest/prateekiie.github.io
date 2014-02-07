@@ -101,6 +101,8 @@ function githubActivity(user) {
                 html += '</ul>';
             }
         });
+        document.getElementById('github').style.display = 'none';
         document.getElementById('github').innerHTML = html;
+        $('#github').fadeIn({duration: 800});
     });
 }
