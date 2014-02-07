@@ -15,7 +15,7 @@ function branchLink(repo, branch) {
             branch+'</a>';
 }
 
-function pullRequestLink(url, number) {
+function issueLink(url, number) {
     return '<a class="pullreq" href="'+url+'">&#35;'+number+'</a>';
 }
 
@@ -71,9 +71,23 @@ function githubActivity(user) {
                        ue.payload.action.slice(1);
                 result[day].push(
                     verb+' pull request '+
-                    pullRequestLink(ue.payload.pull_request.html_url,
+                    issueLink(ue.payload.pull_request.html_url,
                                     ue.payload.number)+
                     '<br>'+repoLink(ue.repo.name));
+                break;
+
+            case 'IssueCommentEvent':
+                if (ue.payload.issue.created_at ==
+                    ue.payload.comment.created_at) {
+                        alert('lol not this one');
+                        break;
+                }
+                displayed++;
+                result[day].push('Commented on issue '+
+                    issueLink(ue.payload.comment.html_url,
+                              ue.payload.issue.number)+
+                    '<br>'+repoLink(ue.repo.name));
+                break;
             }
         });
         Object.keys(result).forEach(function(day) {
