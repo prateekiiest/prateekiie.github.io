@@ -44,17 +44,18 @@ comparison and manipulation? Date and time formatting? Using multiple libraries
 to accomplish the same task based on developer preference is an anti-pattern
 that we should all try to avoid.
 
-## Suggest changes, don't ask for them
+## Be thorough during code submission
 
 As a software developer, you will have your own opinions on what would work
 better, or how a project could be more effecient, and that's a good thing. If
 you feel that one of your ideas is beneficial to the project in reasonable
 balance with any negative impact to productivity or uncertainty, suggest it to
-the maintainer(s) using the appropriate channels, be it a forum, feature
-request, bug report, or email. Pull requests, patches, and any other form of
-code submission is inappropriate, even if well-intended. Some form of evaluation
-or validation by the maintainer(s) on the project should precede the change.
-Pitch before you push.
+the maintainer(s) using the appropriate channels. It's usually better if some
+conversation around your feature has been had prior to our submission, but often
+times as developers we write the code first to see if it will work, then get
+excited about it and want to share. Just make sure you convey your use cases and
+reasoning clearly to give others the full context of why you thought the change
+was a good idea.
 
 Think about what it would take for you to merge someone's changes into your
 favorite original project and apply it to the way you go about making outbound
