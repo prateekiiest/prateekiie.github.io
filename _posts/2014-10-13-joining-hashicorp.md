@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Joining Hashicorp"
+title: "Working for Hashicorp"
 categories:
   - jobs
 ---

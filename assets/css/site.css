@@ -234,3 +234,7 @@ div.software_repos {
   background: url('/assets/images/pkg.png') left top no-repeat;
   padding: 10px 0 20px 30px;
 }
+div.post_body {
+  line-height: 1.7em;
+  font-size: 1.1em;
+}
