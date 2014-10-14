@@ -22,5 +22,6 @@ I couldn't ask for a better team to work with. I haven't met everyone on our
 6-person roster yet, but am excited to get started collaborating.
 
 I hope to really find my stride here, and become much more involved in the
-community and in the code itself. Check out Hashicorp and the projects we work
-on if you haven't already at [hashicorp.com](http://hashicorp.com).
+community, the vision, and in the code itself. Check out Hashicorp and the
+projects we work on if you haven't already at
+[hashicorp.com](http://hashicorp.com).
