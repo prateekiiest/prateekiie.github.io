@@ -4,8 +4,6 @@ title: About
 published: true
 ---
 
-![""](https://avatars2.githubusercontent.com/u/16035442?s=460&v=4)
-
 Personal Website: <http://prateekiiest.github.io>  
 GitHub: <https://www.github.com/prateekiiest>  
 LinkedIn: <https://www.linkedin.com/in/prateek-chanda-iiest/>
