@@ -31,6 +31,20 @@ accuracy measured by silhouette score compared to traditional methods.
 * Performed comparative theoretical analysis on traditional metric learning
 algorithms with respect to precision metrics and convergence speed.
 
+### Linux Foundation - OpenDaylight (Jul 2018 - Nov 2018)
+* Designed an automated Jenkins support for building jobs in Maven through a
+bot service affecting over 75% of Opendaylight projects. Commits
+* Implemented a version of mediawiki-rst migration for conversion of mediawiki
+proposals to otherformats. Worked on an automated design for constructing
+project dependency graph for over 93% versions of OpenDaylight projects.
+
+### FOSSASIA - SUSI.AI (Jun 2018 - Sept 2018)
+* Worked in a team of 126 developers to develop prototype forthe SUSI Smart
+Speaker Application along with implementation of APIs for various SUSI skills.
+* Implemented speech-to-text and text-to-speech functionality forthe Smart
+Speaker system with improved voice recognition accuracy of 91% measured
+using standard measures like Word errorrate.
+
 ### Complex Network Research Group, IIT Kharagpur (May 2017 - Jun 2017)
 * Designed classification models upon student group dataset to predict group
 formation and group dynamics using mobile sensor data like wifi location,
@@ -38,32 +52,12 @@ accelerometer values and voice levels.
 * Achieved average precision of 88.9% measured by standard accuracy measures
 as compared to other proposed models.
 
-
-### California Reigonal Intranet / Complex Drive Business Internet (2005 - 2006)
-* Began as a sales representative in early 2005
-* Transferred to Support department a few months after hire
-* Worked mainly with server configurations, as well as providing support to network engineers and sysadmins.
-* Attended weekly training seminars in the Complex Drive colocation facility, covering shell scripting, mail troubleshooting, and other various administration essentials.
-
-## Specialized Training
-* RedHat Certified Technician # 605007617314710 (verify at <https://www.redhat.com/training/certification/verify>)
-* RedHat Certified Engineer # 805008830334209 (verify at <https://www.redhat.com/training/certification/verify>)
-* RedHat Certified System Administrator # 100-018-837 (verify at <https://www.redhat.com/training/certification/verify>)
-* Parallels Automation Professional for Parallels Plesk Panel for Linux
-* Parallels Automation Engineer for Parallels Plesk Panel for Linux
-* Parallels Certified Virtualization Professional for Linux
-
-## Other Qualifications
-* Implemented automated unit testing and static analysis using PHPUnit and home-grown software testing tools.
-* Familiar with Nagios and other monitoring platforms, and have scripted many daily duties as the administrator of such servers.
-* Performed kernel-level patching and packaging in RPM format
-* Familiar with remote logging mechanisms (primarily rsyslogd) and the monitorware database schema, as well as configuration and maintenance of GUI interfaces such as Adicson Log Analyzer and Splunk.
-* Re-wrote many scripts used on a daily basis for a growing dedicated server business, including automated customer notification emails, simple fixes for common dedicated server problems, and automations for tedious everyday tasks.
-* Wrote a Linux debugging script that repaired root-compromised servers. Parts of the script were deployed across a network and serviced many dedicated servers.
-* Managed a small group of desktop computers with both Linux and Microsoft operating systems, including tasks such as normal security updates, filesystem maintenance, user management, remote home directories / NIS authentication, and application installation / configuration.
-* Ran a dedicated server for many years, successfully migrated it with no data loss and minimal service interruption.
-* Understandiong of the importance of monitoring server logs and resource utilization.
-* Wrote server provisioning software capable of booting a computer via PXE and DHCP, partitioning hard drives, and deploying an operating system. The program is completely manageable through a self-written and easy-to-use web interface. It is capable of being implemented on large networks, and utilizes modern technologies including NFS, Apache, PHP, Bash, Linux, and SQLite among many others.
-* Completed a number of side-jobs, mainly in web development, using utilities such as Flash, HTML, and CSS. Many of these projects included a dynamic back-end for the user to update their website on their own.
-* Experience administrating devices controlled by Cisco IOS software.
-* Kept regular backups of multiple hosts for a number of years. All backups were stored with multiple increments.
+### SunPy, OpenAstronomy (Dec 2016 - Apr 2018)
+* Collaborated with a team of 60 researchers from NASA GSFC, UCL and
+Stanford on development of solarimage processing algorithms and solar data
+storage functionality enhancements.
+* Worked on implementation of solarimage processing algorithms - Multi-scale
+Gaussian Normalisation with 18% improved memory utilization and better
+feature extraction with less noise.
+* Got acknowledged along with researchers at NASA Goddard Space Flight
+Centerin nine releases for contributions to the project.
