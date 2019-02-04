@@ -9,7 +9,7 @@ GitHub: <https://www.github.com/prateekiiest>
 LinkedIn: <https://www.linkedin.com/in/prateek-chanda-iiest/>
 
 ## Objective
-I love working in fast-paced, Unix-based development / server administration roles (devops) as part of a highly collaborative and innovative team. Keeping up with the latest technologies is a very high priority. Furthering and broadening my knowledge of the Linux operating system and the various programming languages that make it useful.
+I am currently working in fast-paced, Unix-based development / server administration roles (devops) as part of a highly collaborative and innovative team. Keeping up with the latest technologies is a very high priority. Furthering and broadening my knowledge of the Linux operating system and the various programming languages that make it useful.
 
 ## Capabilities
 * Proficient in UNIX-like environments, including Red Hat Enterprise and variants, Debian and variants, and FreeBSD.
