@@ -1,5 +1,4 @@
 pygments: true
 markdown: redcarpet
 permalink: /:month-:day-:year/:title.html
-url: "http://prateekiiest.github.io/about/"
-baseurl: "/about"
+
