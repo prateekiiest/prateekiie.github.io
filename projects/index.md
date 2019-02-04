@@ -1,32 +1,30 @@
 ---
 layout: default
 title: Projects
+published: true
 ---
 
 <div class="post_title">Open Source Projects</div>
-Below are some original open source projects I have released. I usually release
-software under the MIT license.
+Below are some original open source projects I have released. 
 
 Many of the below software projects are available for installation using my
 [software repositories](/software-repos)
 
 ---
 
-### yum-rocket
-yum-rocket is a plugin for YUM. It provides threaded downloading of package
-data, mirror prioritization based on speed (when used with fastestmirror), and
-distributed downloads by spanning multiple mirrors on a per-repository basis.
+### Code Sleep Python
 
-([GitHub](https://github.com/ryanuber/yum-rocket))
+This repository contains a curated list of some of the awesome small projects made in Python that you can code away this summer. It includes analysis of different Python modules, a deep analysis of the Python statistics modules and dataframes like Pandas. It has some projects on classification, correlation and regression which are the fundamental building blocks of Machine Learning and Neural Networks.
+
+([GitHub](https://github.com/prateekiiest/Code-Sleep-Python))
 
 ---
 
-### oaf
-Oaf is a web app proof-of-concept framework for quickly creating dynamic
-applications using whatever programming language is most natural to the
-developer. Simple inputs and outputs plus the flexibility of any language which
-can be run as an executable make it an easy solution for mocking and
-prototyping.
+### Building Artificial Neural Networks
+
+Implemented various artificial neural networks including SLP, MLP and RBF
+from scratch and its applications on various data sets along with their detailed
+theoretical analysis.
 
 ([GitHub](https://github.com/ryanuber/oaf)) ([RubyGems](http://rubygems.org/gems/oaf))
 
