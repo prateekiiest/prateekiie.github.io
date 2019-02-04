@@ -1,9 +1,10 @@
 ---
 layout: default
 title: About
+published: true
 ---
 
-![""](/assets/images/2011-12-23.jpg)
+![""](https://avatars2.githubusercontent.com/u/16035442?s=460&v=4)
 
 Personal Website: <http://www.ryanuber.com>  
 GitHub: <https://www.github.com/ryanuber>  
