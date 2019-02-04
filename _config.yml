@@ -1,4 +1,4 @@
 pygments: true
 markdown: redcarpet
 permalink: /:month-:day-:year/:title.html
-
+baseurl: "/about"
