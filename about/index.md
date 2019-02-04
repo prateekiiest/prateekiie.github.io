@@ -6,9 +6,9 @@ published: true
 
 ![""](https://avatars2.githubusercontent.com/u/16035442?s=460&v=4)
 
-Personal Website: <http://www.ryanuber.com>  
-GitHub: <https://www.github.com/ryanuber>  
-LinkedIn: <http://www.linkedin.com/pub/ryan-uber/1a/33a/b29>
+Personal Website: <http://prateekiiest.github.io>  
+GitHub: <https://www.github.com/prateekiiest>  
+LinkedIn: <https://www.linkedin.com/in/prateek-chanda-iiest/>
 
 ## Objective
 I love working in fast-paced, Unix-based development / server administration roles (devops) as part of a highly collaborative and innovative team. Keeping up with the latest technologies is a very high priority. Furthering and broadening my knowledge of the Linux operating system and the various programming languages that make it useful.
