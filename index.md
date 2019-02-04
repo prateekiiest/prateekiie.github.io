@@ -24,38 +24,20 @@ I love working in fast-paced, Unix-based development / server administration rol
 * Experience in working with different open source licenses within a large corporation
 
 ## Relevant Experience
-### Cisco Systems, Inc. (January 2011 - Present)
-* Relocated to the bay area, California
-* Automated remastering of a RHEL-based Linux distribution, including custom packages and installation procedures.
-* Utilized kickstart heavily, and invented work-arounds for features that are not officially supported by Anaconda, such as configuring an LVM PV on a raw block device. 
-* Wrote a custom CLI shell in C utilizing ncurses to provide a clean and consistent "closed-box" feel. It included features such as networking configuration, name resolution configuration, puppet client configuration, an interface using PAM to change the administrator's account password, and access to common VM tasks such as shut down and reboot.
-* Converted a large number of Python-based deployment scripts into Puppet manifests to streamline installation procedures and provide a "desired state" enforcement mechanism for all of our virtual machines. Made use of Puppet's external nodes feature to hand management of nodes and service subscriptions off to a database table and eliminate parsing/writing puppet manifests with code.
-* Automated deployment of many services (installation, configuration, service monitoring), including mongodb with multiple replication slaves, Oracle, memcached, Tomcat instances, Openfire XMPP server, ActiveMQ, and more.
-* Wrote a modular, object-oriented REST API using PHP and PDO to provide a central interface to all deployment functions of the product. Business logic was implemented as modules, and the core of the API was left untouched, making it extremely re-usable and extensible. Features include multiple/pluggable encoding types (JSON, XML, and YAML provided by default), individual API versioning to support up-to-date and legacy clients concurrently, a "hooks" facility to allow adding custom pre- or post-execution tasks on a per-API basis, and a module to provide OAuth 1.0a support, including and interface to manage consumer tokens. Our own administrative * Web UI was a consumer of the API.
-* Wrote an extension to the aforementioned API to provide virutal machine verification, which included a combination of a full RPM verify, configuration dry-run with change notification, and authentication reporting. These verification utilities provided insight to any manual modifications made to a system since its deployment.
-* Assisted a team working towards a common deployment architecture, which included building virutal machine images automatically from JSON configuration inputs and automated testing and verification of the images before being "promoted" to production deployments.
-* Automated in-place upgrades from RHEL 5 to RHEL6 using puppet, RPM, and YUM. Involved patching a few YUM functions, installing a custom version of RPM to perform the upgrade, and a reboot at the end.</ul> </li> 
+### Machine Intelligence Unit, Indian Statistical Institute (May 2018 - Aug 2018)
+* Implemented a k-means centric optimization approach to discover similarity
+metrics from data distribution with better convergence and a 6.5% increase in
+accuracy measured by silhouette score compared to traditional methods.
+* Performed comparative theoretical analysis on traditional metric learning
+algorithms with respect to precision metrics and convergence speed.
 
-### Codero.com (Formerly Aplus.net, August 2008 - January 2011)
-* Promoted to Manager, Dedicated Server Engineering from my former Aplus.net position.
-* Relocated to Kansas City, Kansas to work from Codero's headquarters.
-* Developed and implemented a larger-scale management platform utilizing Puppet, which is controlled and configured through a centralized management interface written in object-oriented PHP from the ground up.
-* Scripted and maintained our "Managed Services" provisioning procedure, which involved rewriting many configuration files, installation of a large application stack, testing of remote logging services, implementing iptables firewall rules, locking down the secure shell daemon to key authentication, updating insecure packages, installing control panel software, and configuring remote server management services. All of the listed items were carried out automatically with no user interaction. Server roles were templated and easily pushed to new infrastructure.
-* Built and maintained an RPM package repository to provide more recent technologies than stock CentOS packages could provide to our customers. This included building pre-patched versions of software to protect servers against known security exploits or to fix common bugs that were not being given priority upstream. Maintained binary and dependency compatibility with the underlying operating system so that when official packages were released we could install them instead.
-* Watched a number of "announce" mailing lists to ensure the latest and most stable versions of software were implemented on customer servers.
-* Managed a team of engineers (small group, between 4 and 8 people at once).
-* Assisted superiors with internal product and procedure development.
+### Complex Network Research Group, IIT Kharagpur (May 2017 - Jun 2017)
+* Designed classification models upon student group dataset to predict group
+formation and group dynamics using mobile sensor data like wifi location,
+accelerometer values and voice levels.
+* Achieved average precision of 88.9% measured by standard accuracy measures
+as compared to other proposed models.
 
-### Aplus.net (April 2006 - August 2008)
-* Hired into Level II support, dealing mainly with system configurations and troubleshooting.
-* Transferred to a datacenter position one month after hire.
-* Much time spent installing, troubleshooting, and configuring dedicated servers, ranging from simple stand-alone servers to more complex server farms behind a Web Mux load balancer or Cisco firewall.
-* Promoted to a Lead Dedicated Server Technician early in 2007
-* Traveled to Phoenix, Arizona to help establish a new datacenter location. Flew back and forth for 3-4 months. * Traveled to Kansas City to aid in development of a new department.
-* Assisted in relocation of an entire datacenter, with inventory including arrays of servers, private networks, hardware firewalls, and load balancers.
-* Ported server provisioning software from Trustix Secure Linux to CentOS 5.1, which required porting Perl 5.8.5 scripts to 5.8.8.
-* Wrote an IP address database from scratch in PHP / Javascript with a web front-end which keeps track of over 15,000 active IP addresses, which customer they belong to, LAN information, MAC addresses, and physical locations of servers.
-* Established the Managed Services department, promoted to Manged Services Administrative Lead. Configured services for clients such as centralized remote syslogging via secured TCP, services monitoring and alerts, custom software repositories with pre-configured packages, and complete OS / Control Panel mirrors.
 
 ### California Reigonal Intranet / Complex Drive Business Internet (2005 - 2006)
 * Began as a sales representative in early 2005
